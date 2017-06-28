@@ -1,0 +1,228 @@
+/*页面初始化*/
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.swiper-container{
+    width: 100%;
+    height: 100%;
+}
+.infinite{
+    animation-iteration-count: infinite;
+}
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+}
+.page1{
+    background: url("../images/bg.png");
+    background-size: 100% 100%;
+}
+.page1 .pic1{
+    width: 1.75rem;
+    height: 0.61rem;
+    font-size: 0;
+    margin: 0.36rem auto;
+}
+.page1 .pic2 .img1{
+    width: 2.61rem;
+    height: 2.69rem;
+    margin: 0 auto;
+}
+.page1 .pic2 .img2{
+    width: 1.90rem;
+    height: 0.81rem;
+    position: absolute;
+    top: 1.3rem;
+    left: 50%;
+    margin-left: -0.95rem;
+}
+.page1 .pic2 span{
+    font-size: 0.15rem;
+    color: #ffffff;
+    position: absolute;
+    left: 50%;
+    margin-left: -0.7rem;
+    top: 3.5rem;
+}
+.page1 .pic3{
+    width: 2.61rem;
+    height: 1.36rem;
+    margin: 0 auto;
+}
+
+.page2{
+    background: url("../images/bg-2.png");
+    background-size: 100% 100%;
+}
+.page2 .pic1{
+    width: 1.5rem;
+    height: 0.81rem;
+    font-size: 0;
+    position: absolute;
+    top: 0.35rem;
+    left: 50%;
+    margin-left: -0.75rem;
+}
+.page2 .pic2{
+    width: 3.01rem;
+    height: 2.81rem;
+    margin: 0.95rem auto;
+
+}
+
+.page3{
+    background: url("../images/bg.png");
+    background-size: 100% 100%;
+}
+.page3 h2{
+    font-size: 0.4rem;
+    text-align: center;
+    font-family: FZWBJW;
+    color: #ffffff;
+    margin: 0.35rem 0;
+}
+.page3 .pic1{
+    width: 2.55rem;
+    height: 3.86rem;
+    margin: 0 auto;
+}
+
+.page4{
+    background: url("../images/bg.png");
+    background-size: 100% 100%;
+}
+.page4>div{
+    font-size: 0;
+    text-align: center;
+}
+.page4 .pic1 p{
+    width: 2.34rem;
+    height: 0.32rem;
+    margin: 0.35rem auto 0.2rem;
+}
+.page4 .pic1 p img{
+    width: 100%;
+    height: 100%;
+}
+.page4 .pic1 span{
+    font-size: 0.16rem;
+    color: white;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    line-height: 0.31rem;
+}
+.page4 .pic1 .span1{
+    font-size: 0.12rem;
+    color: black;
+    font-weight: bold;
+    line-height: 0.21rem;
+}
+.page4 .pic1 .span2{
+    font-size: 0.12rem;
+    color: black;
+    font-weight: bold;
+    line-height: 0.21rem;
+}
+.page4 .pic2{
+    width: 2.86rem;
+    height: 2.14rem;
+    margin: 0.18rem auto 0;
+}
+
+.page5{
+    background: url("../images/bg-3.png");
+    background-size: 100% 100%;
+}
+.page5>div{
+    font-size: 0;
+}
+.page5 .pic1 p{
+    width: 2.58rem;
+    height: 0.48rem;
+    margin: 0 auto;
+}
+.page5 .pic1 p img{
+    width: 100%;
+    height: 100%;
+}
+.page5 .pic2{
+    width: 2.84rem;
+    height: 1.54rem;
+    margin: 0.5rem auto 0.87rem;
+}
+.page5 .pic3{
+    width: 2.72rem;
+    height: 0.48rem;
+    margin: 0 auto;
+}
+
+.page6{
+    background: url("../images/bg.png");
+    background-size: 100% 100%;
+}
+.page6 .pic1{
+    width: 2.32rem;
+    height: 0.5rem;
+    margin: 0.24rem auto 0.14rem;
+    font-size: 0;
+}
+.page6 .pic2{
+    width: 3.53rem;
+    height: 0.95rem;
+    margin: 0 auto 0.35rem;
+}
+
+.page7{
+    background: url("../images/bg-4.png");
+    background-size: 100% 100%;
+}
+.page7 .pic1{
+    width: 2.17rem;
+    height: 0.7rem;
+    margin: 0.63rem auto 0.23rem;
+    font-size: 0;
+}
+.page7 .pic2{
+    width: 2.17rem;
+    height: 0.32rem;
+    margin: 0 auto;
+    font-size: 0;
+}
+.page7 .pic3{
+    width: 1.52rem;
+    height: 1.54rem;
+    margin: 0.2rem auto 0;
+}
+
+.page8{
+    background: url("../images/bg-5.png");
+    background-size: 100% 100%;
+}
+.page8 .pic1{
+    width: 2.16rem;
+    height: 0.42rem;
+    margin: 0.4rem auto;
+    font-size: 0;
+}
+.page8 .pic2{
+    font-size: 0;
+    width: 3.13rem;
+    margin: 0 auto 0.25rem;
+    overflow: hidden;
+}
+.page8 .pic2 p{
+    width: 1.47rem;
+    height: 1.52rem;
+    float: left;
+}
+.page8 .pic2 p:nth-child(1){
+    margin-right: 0.16rem;
+}
